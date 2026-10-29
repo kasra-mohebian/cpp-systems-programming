@@ -2,6 +2,7 @@ name: Build and tests
 on:
   push:
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
@@ -14,8 +15,8 @@ jobs:
           - {os: ubuntu-latest, compiler: gcc, cc: gcc, cxx: g++, mode: Debug}
           - {os: ubuntu-latest, compiler: gcc, cc: gcc, cxx: g++, mode: Release}
           - {os: ubuntu-latest, compiler: clang, cc: clang, cxx: clang++, mode: Debug}
-          - {os: macos-latest, compiler: clang, cc: clang, cxx: clang++, mode: Debug}
-          - {os: macos-latest, compiler: clang, cc: clang, cxx: clang++, mode: Release}
+          - {os: macos-15-intel, compiler: clang, cc: clang, cxx: clang++, mode: Debug}
+          - {os: macos-15-intel, compiler: clang, cc: clang, cxx: clang++, mode: Release}
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2

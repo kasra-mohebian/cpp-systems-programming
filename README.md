@@ -66,7 +66,7 @@ ctest --test-dir build-asan --output-on-failure
 
 Seven independently written test suites cover algorithms, containers, numbers, expressions, the VM, resources and concurrency. Checks include comparisons with standard-library results, deterministic randomized inputs, move/cleanup lifetimes, malformed bytecode and Varints, and concurrent readers and writers. Tests remain active in Release builds.
 
-CI runs Debug and Release builds on Linux and macOS, plus a Linux ASan/UBSan build. The concurrency tests check observed behavior; they are not a formal proof of correctness or a performance benchmark. CI also runs the concurrency suite under ThreadSanitizer on Linux. A separate local ThreadSanitizer build is available with `-DCPPSTUDY_THREAD_SANITIZER=ON` on supported systems.
+CI runs Debug and Release builds on Linux and macOS (Intel), plus a Linux ASan/UBSan build. The concurrency tests check observed behavior; they are not a formal proof of correctness or a performance benchmark. CI also runs the concurrency suite under ThreadSanitizer on Linux. A separate local ThreadSanitizer build is available with `-DCPPSTUDY_THREAD_SANITIZER=ON` on supported systems.
 
 ## Boundaries
 
