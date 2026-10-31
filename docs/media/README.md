@@ -5,3 +5,7 @@
 ## Conceptual illustration
 
 `docs/media/project-overview.jpg` was generated with OpenAI’s image-generation tool in Codex. It is explanatory artwork, not experimental evidence. To the extent rights exist and are held in this image, it is made available under MIT. No university or publisher figure is reproduced.
+
+## Explanatory diagram
+
+`implementation-map.svg` is an original code-drawn explanatory map prepared for this repository with AI assistance. It summarizes existing implementation or evidence documentation; it does not reproduce a publisher figure or report a new measurement. It is covered by the repository’s MIT terms for original explanatory material.

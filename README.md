@@ -13,6 +13,10 @@ A collection of small C++ implementations developed during completed individual 
 
 This is a learning project, not a replacement for the standard library. The public edition has its own build, tests and examples. Assignment questions, lecture material, instructor implementations and tests, and the original submission history are excluded. See [what changed for publication](docs/public-edition.md).
 
+![Original implementation map: containers, resource ownership, expressions and concurrent publication.](docs/media/implementation-map.svg)
+
+*Original implementation map: containers, resource ownership, expressions and concurrent publication.*
+
 ## Explore the code
 
 | Area | Implementation | What to look at |
