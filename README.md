@@ -1,8 +1,8 @@
 # C++ Systems Programming
 
-![Technical concept illustration of ownership, collision chains and atomic publication; object shapes are schematic, not source-object layouts.](docs/media/project-overview-technical.png)
+![Output from the runnable C++ example, arranged for readability; not a benchmark.](docs/media/project-preview.png)
 
-*Technical concept illustration of ownership, collision chains and atomic publication; object shapes are schematic, not source-object layouts.*
+*Output from the runnable C++ example, arranged for readability; not a benchmark.*
 
 **Data structures, memory, ownership and concurrency in C++20.**
 
