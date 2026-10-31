@@ -1,8 +1,8 @@
 # C++ Systems Programming
 
-![Conceptual illustration: data structures, resource ownership and concurrent access.](docs/media/project-overview.jpg)
+![Technical concept illustration of ownership, collision chains and atomic publication; object shapes are schematic, not source-object layouts.](docs/media/project-overview-technical.png)
 
-*Conceptual illustration: data structures, resource ownership and concurrent access.*
+*Technical concept illustration of ownership, collision chains and atomic publication; object shapes are schematic, not source-object layouts.*
 
 **Data structures, memory, ownership and concurrency in C++20.**
 
